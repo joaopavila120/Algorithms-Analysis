@@ -10,15 +10,8 @@ def fibonacci(n):
             penultimo = ultimo
             ultimo = termo
             count += 1
-        print(termo)
-    
+        print(termo) 
 #fibonacci(6)
-
 import cProfile
 import re
 cProfile.runctx('fibonacci(6)', None, locals())
-
-
-
-#links
-#https://wagnergaspar.com/comparando-o-algoritmo-de-fibonacci-recursivo-e-iterativo-tempo-de-execucao/
